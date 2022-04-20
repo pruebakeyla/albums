@@ -14,5 +14,5 @@ xhttp.onreadystatechange = function () {
         document.getElementById("demo").innerHTML = txt;
     }
 };
-xhttp.open("GET", file, true);
+xhttp.open("GET", "file", true);
 xhttp.send();
